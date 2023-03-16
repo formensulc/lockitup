@@ -24,7 +24,7 @@
 .title {
     font-family: 'Parisienne', cursive;
     /* position: absolute; */
-    width: 552.94px;
+    /* width: 552.94px; */
     height: 142.74px;
     font-style: normal;
     font-weight: 400;
@@ -34,11 +34,12 @@
     mix-blend-mode: normal;
     transform: rotate(0.43deg);
 }
+  
 
 .text {
     font-family: 'Parisienne', cursive;
-    width: 1163px;
-    height: 50px;
+    /* width: 1163px; */
+    /* height: 50px; */
     font-style: normal;
     font-weight: 400;
     font-size: 36px;

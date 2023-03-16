@@ -7,6 +7,7 @@ import {
 import App from "./App";
 import "./index.css";
 import Welcome from "./views/welcome";
+import NewSecret from "./views/newSecret";
 
 const router = createBrowserRouter([
   {
@@ -15,7 +16,7 @@ const router = createBrowserRouter([
   },
   {
     path: "/create",
-    element: <div>HELLO</div>,
+    element: <NewSecret/>,
   },
 ]);
 
