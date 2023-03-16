@@ -1,0 +1,70 @@
+
+.container {
+    margin: 150px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container img {
+    margin-bottom: 20px;
+  }
+  
+  .container .title {
+    margin-top: -10px;
+  }
+  
+  .container .text {
+    margin-top: -5px;
+  }
+
+
+.title {
+    font-family: 'Parisienne', cursive;
+    /* position: absolute; */
+    width: 552.94px;
+    height: 142.74px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 140px;
+    line-height: 300px;
+    color: #000000;
+    mix-blend-mode: normal;
+    transform: rotate(0.43deg);
+}
+
+.text {
+    font-family: 'Parisienne', cursive;
+    width: 1163px;
+    height: 50px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 45px;
+    color: #000000;
+}
+
+.btn {
+    width: 411px;
+    height: 100px;
+    background: #CE2B2B;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 47.5px;
+    /* border: none; */
+}
+
+.btnText {
+    width: 324px;
+    height: 66px;
+    font-family: 'Parisienne', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 65px;
+    color: #FFFFFF;
+}
+      
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
+
