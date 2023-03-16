@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import key from './assets/images/key.svg';
 import './App.css';
 import { Link } from "react-router-dom";
+import { Welcome } from './views/welcome';
 
 function App() {
   return (
