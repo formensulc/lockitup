@@ -3,11 +3,12 @@ import key from './assets/images/key.svg';
 import './App.css';
 import { Link } from "react-router-dom";
 import { Welcome } from './views/welcome';
+import {newSecret} from './views/newSecret'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      {/* <header className="App-header">
         <img src={key} className="App-logo" alt="logo" />
         <p>
           TEST Edit <code>src/App.js</code> and save to reload.
@@ -21,7 +22,7 @@ function App() {
           Learn React
         </a>
         <Link to={'/create'}>HUI</Link>
-      </header>
+      </header> */}
     </div>
   );
 }
