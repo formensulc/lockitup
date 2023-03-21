@@ -1,0 +1,76 @@
+.mypage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mypage .blockOne {
+    text-align: center;
+}
+
+.mypage .tittleOne {
+    font-family: 'Parisienne';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 87px;    
+    color: #000000;  
+    mix-blend-mode: normal;
+    transform: rotate(0.43deg);
+}
+
+.mypage hr {
+    width: 800px;
+    height: 0px;
+    border: 1px solid #000000;
+    transform: rotate(-0.07deg);
+}
+
+.mypage .fAq {
+    display: inline-block;
+    margin-left: 650px;
+    margin-top: -20px;
+    margin-bottom: -50px;
+}
+
+.mypage .textOne {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 63px;
+}
+
+.mypage .yourSecret {
+    box-sizing: border-box;
+    width: 800px;
+    height: 226px;
+    background: #FCFCFC;
+    border: 1px solid #B9B9B9;
+    box-shadow: 5px 4px 4px rgba(164, 164, 164, 0.15);
+    border-radius: 15px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+}
+
+.mypage .btnOne {
+    background: #CE2B2B;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 24px;
+    padding: 10px 240px 10px 240px;
+    margin-top: 25px;
+    
+}
+
+.mypage .btnOne span {
+    font-family: 'Vidaloka';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 44px;
+    color: white;
+
+}

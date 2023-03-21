@@ -10,6 +10,7 @@ import Welcome from "./views/welcome";
 import NewSecret from "./views/newSecret";
 import LockSecret from "./views/lockSecret";
 import OpenSecret from "./views/openSecret";
+import MySecret from "./views/mySecret"
 
 const router = createBrowserRouter([
   {
@@ -27,6 +28,10 @@ const router = createBrowserRouter([
   {
     path: "/open",
     element: <OpenSecret/>
+  },
+  {
+    path: "/secret",
+    element: <MySecret/>
   }
 ]);
 
