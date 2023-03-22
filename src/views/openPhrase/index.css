@@ -1,0 +1,75 @@
+.phrasepage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.blockpage {
+    text-align: center;
+}
+
+.blockpage .phrase {
+    font-family: 'Parisienne';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 87px;
+    color: #000000;
+    mix-blend-mode: normal;
+    transform: rotate(0.43deg);
+}
+
+.blockpage hr {
+    border: 1px solid #000000;
+    transform: rotate(-0.07deg);
+    margin-top: -50px;
+}
+
+.blockpage .faQ {
+    text-align: right;
+    margin-bottom: 50px;
+}
+
+.blockpage .textTwo{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+    text-align: left;
+    word-wrap: break-word;
+}
+
+.blockpage .inputPhrase {
+    background: #FCFCFC;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    width: 821px;
+    height: 58px;
+    padding-left: 10px;
+    border: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    margin-top: 5px;
+}
+
+.blockpage .btnphrase {
+    background: #CE2B2B;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 24px;
+    padding: 20px 330px 20px 330px;
+    margin-top: 30px;
+}
+
+.blockpage .btnphrase span {
+    font-family: 'Vidaloka';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 44px;
+    color: white;
+}
+
