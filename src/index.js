@@ -11,6 +11,7 @@ import NewSecret from "./views/newSecret";
 import LockSecret from "./views/lockSecret";
 import OpenSecret from "./views/openSecret";
 import MySecret from "./views/mySecret"
+import OpenPhrase from "./views/openPhrase";
 
 const router = createBrowserRouter([
   {
@@ -32,7 +33,12 @@ const router = createBrowserRouter([
   {
     path: "/secret",
     element: <MySecret/>
+  },
+  {
+    path: "/phrase",
+    element: <OpenPhrase/>
   }
+  
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(
