@@ -10,7 +10,7 @@ function LockSecret() {
                <p>how it works? F.A.Q.</p>
             </div>
                <h1>Go it!</h1>
-               <p>your will be stored securely</p>
+               <p>your secret will be stored securely</p>
                <img src={Vector} alt="" />
                <h2>Share this link only with your complice!</h2>
                <input type="email" placeholder="Введите email"/> <br />

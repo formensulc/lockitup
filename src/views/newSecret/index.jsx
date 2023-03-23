@@ -24,26 +24,28 @@ function NewSecret() {
     localStorage.setItem("secret", secret);
   };
     return (
-        <div className="homepage">
-          <div className="word">
-             <p className="oneTitle">Lock it up</p>
-          </div>
+        <div className="newPage">
+          <div className="newBlock">
+             <p className="newTitle">Lock it up</p>
               <hr />
-              <p className="question">how it works?  F.A.Q</p>
-              <p className="createSecret">Create a new Secret</p>
-              <textarea className="writeText" cols="30" rows="10" onChange={handleTextChange}></textarea>  
-           <div className="numberDay">
-              <p className="longSecret">How long needs to keep your secret?</p>
-                <select className="select" onChange={handleDaysChange}>
+               <p className="newOneText">how it works?  F.A.Q</p>
+               <p className="newTwoText">Create a new Secret</p>
+               <textarea className="newWriteText" placeholder="Start type your secret..." onChange={handleTextChange}></textarea> 
+
+              <div className="newSelectBlock">
+                <p className="newThreeText">How long needs to keep your secret?</p>
+                <select className="newSeclect" onChange={handleDaysChange}>
                   <option value="1">1 day</option>
                   <option value="2">2 day</option>
                 </select>
+              </div>
+
+            <div className="newUnlockBlock">
+              <p className="newFourTitle">Phrase to unlock your secret</p>
+              <input className="newInput" type="text" placeholder="Enter the Pharse" onChange={handleSecretChange} />
             </div>
-            <div className="unlockSecret">
-              <p>Phrase to unlock your secret</p>
-              <input className="input" type="text" placeholder="Enter the Pharse" onChange={handleSecretChange} />
-            </div>
-              <Link to={'/lock'}> <button className="oneBtn" onClick={handleLockMessage}> <span>Lock message</span></button> </Link>         
+               <Link to={'/lock'}> <button className="newBtn" onClick={handleLockMessage}> <span>Lock message</span></button> </Link>   
+            </div>       
          </div>  
     )
 }
