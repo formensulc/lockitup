@@ -12,6 +12,7 @@ import LockSecret from "./views/lockSecret";
 import OpenSecret from "./views/openSecret";
 import MySecret from "./views/mySecret"
 import OpenPhrase from "./views/openPhrase";
+import DeadSecret from "./views/deadSecret";
 
 const router = createBrowserRouter([
   {
@@ -37,6 +38,10 @@ const router = createBrowserRouter([
   {
     path: "/phrase",
     element: <OpenPhrase/>
+  },
+  {
+    path: "/dead",
+    element: <DeadSecret/>
   }
   
 ]);
