@@ -40,7 +40,6 @@
 }
 
 
-
 .newPage .newBlock .newTwoText {
     font-family: 'Roboto';
     font-style: normal;
@@ -119,6 +118,11 @@
 }
 
 .newPage .newBlock .newBtn {
+    font-family: 'Vidaloka';
+    font-weight: 400;
+    color: #FFFFFF;
+    line-height: 44px;
+    font-size: 36px;
     width: 800px;
     height: 77px;  
     background: #CE2B2B;
@@ -128,13 +132,13 @@
     margin-top: 70px;
 }
 
-.newPage .newBlock .newBtn span {
+/* .newPage .newBlock .newBtn span {
     width: 217px;
     height: 44px;
-    font-family: 'Vidaloka';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 36px;
-    line-height: 44px;
-    color: #FFFFFF;
-}
+    font-family: 'Vidaloka'; */
+    /* font-style: normal; */
+    /* font-weight: 400; */
+    /* font-size: 36px; */
+    /* line-height: 44px; */
+    /* color: #FFFFFF; */
+/* } */
