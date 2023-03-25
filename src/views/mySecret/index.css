@@ -8,7 +8,7 @@
     text-align: center;
 }
 
-.mypage .tittleOne {
+.mypage .blockOne .titleOne {
     font-family: 'Parisienne';
     font-style: normal;
     font-weight: 400;
@@ -17,6 +17,7 @@
     color: #000000;  
     mix-blend-mode: normal;
     transform: rotate(0.43deg);
+    margin-bottom: -10px;
 }
 
 .mypage hr {
@@ -54,6 +55,7 @@
     font-weight: 400;
     font-size: 18px;
     line-height: 32px;
+    padding: 10px;
 }
 
 .mypage .btnOne {

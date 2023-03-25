@@ -1,148 +1,144 @@
- .homepage .word {
+ .newPage {
     display: flex;
     justify-content: center;
-    margin-bottom: -60px;
+    align-items: center;
 }
 
-.homepage hr {
+.newPage .newBlock {
+    text-align: center;
+}
+
+.newPage .newBlock hr {
     width: 800px;
     height: 0px;
     border: 1px solid #000000;
     transform: rotate(-0.07deg);
 }
 
-.question {
+.newPage .newBlock .newOneText {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
     text-align: right;
-    margin-right: 200px;
+    padding-right: 250px;
+
 }
 
-.oneTitle {
+ .newPage .newBlock .newTitle {
     font-family: 'Parisienne';
     font-style: normal;
     font-weight: 400;
     font-size: 64px;
-    line-height: 87px;
-    
+    line-height: 87px; 
     color: #000000;
-    
     mix-blend-mode: normal;
     transform: rotate(0.43deg);
+    margin-bottom: -10px;
 }
 
-.question {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 21px;
-    color: #000000;
-    padding-right: 300px;
-}
 
-.createSecret {
+.newPage .newBlock .newTwoText {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
-    line-height: 28px;
+    line-height: 28px; 
     color: #000000;
-    margin-left: 500px;
+    padding-right: 620px;
+
+
 }
 
-.writeText {
+.newPage .newBlock .newWriteText {
     box-sizing: border-box;
-    width: 800px;
-    height: 226px;
     background: #FCFCFC;
     border: 1px solid #B9B9B9;
     box-shadow: 5px 4px 4px rgba(164, 164, 164, 0.15);
     border-radius: 15px;
-    margin-left: 500px;
+    width: 820px;
+    height: 226px;
+    padding: 10px;
+    margin-top: -10px;
+
 }
 
-.numberDay {
+
+.newPage .newBlock .newSelectBlock {
     display: flex;
-    justify-content: center; 
+    justify-content: center;
+    justify-content: space-between;
+    padding: 50px 250px 0px 250px;
+}
+
+.newPage .newBlock .newThreeText {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 21px;
     color: #000000;
-    gap: 110px;
-    padding-top: 50px;
-
+    margin-right: 140px;
 }
 
-.select {
+.newPage .newBlock .newSeclect {
     width: 400px;
     height: 58px;
     background: #FCFCFC;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding-left: 10px;
     border: none;
 }
 
-.longSecret {
-    width: 294px;
-    height: 22px;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 19px;
-    line-height: 21px; 
-    color: #000000;
-}
-
-.unlockSecret {
+.newPage .newBlock .newUnlockBlock {
     display: flex;
     justify-content: center; 
+    justify-content: space-between;
+    padding: 20px 250px 0px 250px; 
+}
+
+.newPage .newBlock .newFourTitle {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 21px;
     color: #000000;
-    gap: 110px;
-    padding-top: 50px;
 }
 
-.unlockSecret p {
-    width: 294px;
-    height: 22px;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 19px;
-    line-height: 21px; 
-    color: #000000;
-}
 
-.unlockSecret input {
-    width: 400px;
-    height: 58px;
+.newPage .newBlock .newInput {
+    width: 396px;
+    height: 55px;
+    border: none;
     background: #FCFCFC;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border: none;
 }
 
-.oneBtn {
-    
+.newPage .newBlock .newBtn {
+    font-family: 'Vidaloka';
+    font-weight: 400;
+    color: #FFFFFF;
+    line-height: 44px;
+    font-size: 36px;
     width: 800px;
-    height: 77px;
+    height: 77px;  
     background: #CE2B2B;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 24px;
-    margin-left: 500px;
-    margin-top: 50px;
+    border: none;
+    margin-top: 70px;
 }
 
-.oneBtn span {
+/* .newPage .newBlock .newBtn span {
     width: 217px;
     height: 44px;
-    font-family: 'Vidaloka';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 36px;
-    line-height: 44px;
-    color: #FFFFFF;
-}
+    font-family: 'Vidaloka'; */
+    /* font-style: normal; */
+    /* font-weight: 400; */
+    /* font-size: 36px; */
+    /* line-height: 44px; */
+    /* color: #FFFFFF; */
+/* } */

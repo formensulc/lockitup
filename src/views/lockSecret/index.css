@@ -2,13 +2,13 @@
     display: flex;
     align-items: center;
     justify-content: center;
-  }
+}
   
-  .word {
+.word {
     text-align: center;
-  }
+}
 
-  .word h6 {
+.word h6 {
     font-family: 'Parisienne';
     font-style: normal;
     font-weight: 400;
@@ -18,32 +18,32 @@
     mix-blend-mode: normal;
     transform: rotate(0.43deg);
     margin-bottom: -10px;
-  }
+}
   
-  .word hr {
+ .word hr {
     width: 800px;
     height: 0px;
     border: 1px solid #000000;
     transform: rotate(-0.07deg);
-  }
+}
 
-  .faq {
+.faq {
     display: inline-block;
     margin-left: 650px;
     margin-top: -20px;
     margin-bottom: -50px;
-  }
+}
 
-  .word h1{
+.word h1{
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 36px;
     line-height: 42px;
     color: #000000;
-  }
+}
 
-  .word h2 {
+.word h2 {
     width: 413px;
     height: 29px;
     font-family: 'Roboto';
@@ -53,34 +53,34 @@
     line-height: 28px;
     color: #000000;
     margin-left: -10px;
-  }
+}
 
-  .word input{
+.word input{
+    box-sizing: border-box;
     width: 821px;
     height: 58px;
-    
     background: #FCFCFC;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  }
+    padding-left: 10px;
+}
 
-  .word button {
+.word button {
     width: 821px;
     height: 78px;
     background: #CE2B2B;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 24px;
     margin-top: 50px;
-  }
+}
 
-  .word span {
+.word span {
     width: 282px;
-    height: 44px;
-    
+    height: 44px; 
     font-family: 'Vidaloka';
     font-style: normal;
     font-weight: 400;
     font-size: 36px;
     line-height: 44px;
     color: #FFFFFF;
-  }
+}
 
