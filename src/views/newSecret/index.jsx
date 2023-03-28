@@ -25,7 +25,6 @@ function NewSecret() {
   const handleFormSubmit = (event) => {
     event.preventDefault();
     console.log('Data: ', textAreaData, days, secretInput);
-    navigate('/lock')
   }
   return (
     <div className="newPage">
@@ -34,13 +33,37 @@ function NewSecret() {
         <hr />
         <p className="newOneText">how it works?  F.A.Q</p>
         <p className="newTwoText">Create a new Secret</p>
-        <textarea value={textAreaData} className="newWriteText" placeholder="Start type your secret..." onChange={(e) => setTextAreaData(e.target.value)}></textarea>
+        <Controller
+          control={control}
+          name="textArea"
+          render={({ field: { onChange } }) => (
+            <div>
+              <textarea
+                className="newWriteText"
+                id="secretArea"
+                placeholder="Start type your secret..."
+                onChange={onChange}
+              />
+              {errors?.secretArea && <span className=""> <br /> Обязательное поле</span>}
+            </div>
+          )}
+          {...register('secretArea', { required: true })}
+          ref={null}
+        />
         <div className="newSelectBlock">
           <p className="newThreeText">How long needs to keep your secret?</p>
-          <select className="newSeclect" onChange={(e) => setDays(e.target.value)}>
-            <option value="1">1 day</option>
-            <option value="2">2 day</option>
-          </select>
+          <Controller
+            name="selectedValue"
+            control={control}
+            defaultValue="1"
+            render={({ field }) => (
+              <select className="newSeclect" {...field}>
+                <option value="1">1 day</option>
+                <option value="2">2 day</option>
+                <option value="3">3 day</option>
+              </select>
+            )}
+          />
         </div>
 
         <div className="newUnlockBlock">
